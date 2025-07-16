@@ -3,25 +3,27 @@
     src: url(./fonts/mark_my_words.ttf);
 }
 
-body,html,h1,h2,h3,h4,h5,h6,
-p,div,dl,dt,dd,ul,ol,li,video,blockquote,hr,a,address,
-span,em,img,strong,sub,sup,del,s,q,mark,code,
-header,nav,main,footer,article,section,aside,
-form,fieldset,legend,input,textarea,label,select,option,button {
-    line-height:1.0; font-size:1rem; font-weight:normal; 
-    margin:0; padding:0; font-style:normal;
-    box-sizing:border-box;
-    font-family:'pretendard', sans-serif ,'mark', serif;
+/* 모든 태그들에 대한 공통 초기값 세팅 */
+html,body,h1,h2,h3,h4,h5,h6,
+dl,dt,dd,ol,ul,li,p,blockquote,hr,div,video,address,
+header,footer,nav,aside,article,section,figure,figcaption,main,details,summary,
+form,fieldset,legend,input,button,select,option,textarea,
+em,strong,sub,sup,br,span,del,s,q,mark,code,img,a,
+table,thead,tbody,tfoot,tr,td,th {
+    margin:0; padding:0; box-sizing:border-box;
+    line-height:1; letter-spacing:-0.02em; word-spacing:0;
+    font-size:1em; font-weight:400; font-style:normal;
+    color:#000;
+    font-family:'Platypi',serif;
 }
-ol, li, ul {list-style:none;}
-a {color:#000; text-decoration:none;}
-button {cursor:pointer; background:none; border:0;}
-input,textarea {appearance:none; border-radius:0; border:0; outline:none;}
-input[type=number]::-webkit-inner-spin-button {
-    -webkit-appearance:none;
-    appearance:none;
-}
+p {font-family:'SUIT',sans-serif;}
+p em{font-family:'SUIT',sans-serif;}
+/* 개별 태그 초기값 */
+a {text-decoration:none;}
+ul,ol,li {list-style:none;}
 fieldset {border:0;}
 legend {display:none;}
-select, option {outline:none; border:0; appearance:none;}
-table, tr, td, th {padding:0; margin:0; border-collapse:collapse;}
+input {border:0; outline:none;}
+button {border:0; background:none; cursor:pointer;}
+table,tr,td,th {border-collapse:collapse;}
+select, option {border:0; appearance:none;}
