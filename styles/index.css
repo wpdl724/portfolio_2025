@@ -1,0 +1,31 @@
+/* 색상코드 */
+/* cover_bg #0D1442;  / page_bg #FFFBEF; / point_color #FF5B1C; / txt_sub_color #A7A7A7;*/
+/* font-family: mark; */
+/* font-size: 
+320px - 20rem; 
+40px - 2.5rem;
+32px - 2rem;
+20px - 1.25rem;
+18px - 1.125rem;
+16px - 1rem;
+14px - 0.875rem;
+*/
+
+body {}
+#wrap {height: 100vh;}
+#wrap .swiper-wrapper{}
+#wrap .swiper-wrapper .intro_bg{
+    background-color: #0D1442;
+    padding: 340px;
+    margin: 0 auto;
+}
+#wrap .swiper-wrapper .intro_bg h1 {
+    color: #fff;
+    font-size: 20rem;
+    font-family: mark;
+    text-align: center;
+    position: relative;
+}
+#wrap .swiper-wrapper .intro_bg img {
+    position: absolute; left: 1200px;
+}
