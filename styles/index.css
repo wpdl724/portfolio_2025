@@ -202,3 +202,26 @@ body {}
 }
 #wrap .swiper-wrapper .project1 .container #project_title_wrap img{}
 #wrap .swiper-wrapper .project1 .container #project_title_wrap img h1{}
+
+
+/* 디자인 sns , bnr, detail */
+#wrap .swiper-wrapper .design{
+}
+#wrap .swiper-wrapper .design .design_title_wrap{}
+#wrap .swiper-wrapper .design .design_title_wrap img{}
+#wrap .swiper-wrapper .design .design_title_wrap h1{}
+
+/* bnr */
+#wrap .swiper-wrapper .design #bnr_swiper{}
+#wrap .swiper-wrapper .design #bnr_swiper .bnr{}
+#wrap .swiper-wrapper .design #bnr_swiper .bnr img{}
+
+/* sns */
+#wrap .swiper-wrapper .design #sns_swiper{}
+#wrap .swiper-wrapper .design #sns_swiper .sns{}
+#wrap .swiper-wrapper .design #sns_swiper .sns img{}
+
+/* detail */
+#wrap .swiper-wrapper .design #detail_swiper{}
+#wrap .swiper-wrapper .design #detail_swiper .detail{}
+#wrap .swiper-wrapper .design #detail_swiper .detail img{}
