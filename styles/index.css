@@ -254,7 +254,7 @@ body {}
 #wrap .swiper-wrapper .project1 .container .top_wrap #show_btn_wrap a button:hover{/* 버튼 호버 효과 */
     /* background-color: #FF5B1C; */
     color:#fff;
-    box-shadow: 0 0 4px 2px #dddddd;
+    box-shadow: 0 0 10px 2px rgba(255,255,255,0.5);
 
 }
 #wrap .swiper-wrapper .project1 .container .top_wrap #show_btn_wrap a #figma{
