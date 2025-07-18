@@ -211,7 +211,7 @@ body {}
     color: #fff;
 }
 #wrap .swiper-wrapper .project1 .container .top_wrap .project_info{  
-    background-color: darkgreen;  
+    /* background-color: darkgreen;   */
     
     
 }
@@ -229,14 +229,49 @@ body {}
     color: #fff;
 }
 #wrap .swiper-wrapper .project1 .container .top_wrap #show_btn_wrap{/* 버튼 묶음 */
-    background-color: yellow;
+    /* background-color: yellow; */
+    padding: 20px 0;
+    /* display: flex; */
+    
 }
-#wrap .swiper-wrapper .project1 .container .top_wrap #show_btn_wrap button{}
-
-#wrap .swiper-wrapper .project1 .container .top_wrap #show_btn_wrap button:hover{/* 버튼 호버 효과 */
+#wrap .swiper-wrapper .project1 .container .top_wrap #show_btn_wrap a{
+    width: 180px; height: 0px;
+    
+    
+}
+#wrap .swiper-wrapper .project1 .container .top_wrap #show_btn_wrap a button{
+    background-color: #FF5B1C;
+    color: #fff;
+    width: 120px; height: 36px;
+    margin-right: 30px;
+    text-align: center;
+    border-radius: 10px;
 
 }
+#wrap .swiper-wrapper .project1 .container .top_wrap #show_btn_wrap a button{
+    background-color: #FF5B1C;
+}
+#wrap .swiper-wrapper .project1 .container .top_wrap #show_btn_wrap a button:hover{/* 버튼 호버 효과 */
+    /* background-color: #FF5B1C; */
+    color:#fff;
+    box-shadow: 0 0 4px 2px #dddddd;
 
+}
+#wrap .swiper-wrapper .project1 .container .top_wrap #show_btn_wrap a #figma{
+    background-color: #000;
+}
+/* 탬버린즈 프로젝트 내용 */
+#wrap .swiper-wrapper .project1 .container .bottom_wrap{/* 탬버린즈 내용 큰묶음  */
+    background-color: wheat;
+    padding: 100px 0;
+
+}
+#wrap .swiper-wrapper .project1 .container .bottom_wrap .qr_img{ /* 탬버린즈 깃허브 큐알코드 */
+    
+}
+#wrap .swiper-wrapper .project1 .container .bottom_wrap .project_contents{}
+#wrap .swiper-wrapper .project1 .container .bottom_wrap .project_contents h3{}
+#wrap .swiper-wrapper .project1 .container .bottom_wrap .project_contents p{}
 
 /* =================================================================== */
 /* 무림 */
@@ -283,7 +318,7 @@ body {}
     
 }
 #wrap #design_project2 .contents .left .design1_banner .swiper-wrapper{
-   
+
 }
 #wrap #design_project2 .contents .left .design1_banner .swiper-wrapper .swiper-slide {
     margin-bottom: 40px;
