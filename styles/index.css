@@ -248,34 +248,244 @@ body {}
     border-radius: 10px;
 
 }
-#wrap .swiper-wrapper .project1 .container .top_wrap #show_btn_wrap a button{
-    background-color: #FF5B1C;
-}
+
 #wrap .swiper-wrapper .project1 .container .top_wrap #show_btn_wrap a button:hover{/* 버튼 호버 효과 */
     /* background-color: #FF5B1C; */
     color:#fff;
     box-shadow: 0 0 10px 2px rgba(255,255,255,0.5);
-
 }
-#wrap .swiper-wrapper .project1 .container .top_wrap #show_btn_wrap a #figma{
+
+#wrap .swiper-wrapper .project1 .container .top_wrap #show_btn_wrap a #figma{background-color: #000;}
+#wrap .swiper-wrapper .project1 .container .top_wrap #show_btn_wrap a #proposal{
     background-color: #000;
 }
+#wrap .swiper-wrapper .project1 .container .top_wrap #show_btn_wrap a #proposal span {color: #fff;}
 /* 탬버린즈 프로젝트 내용 */
 #wrap .swiper-wrapper .project1 .container .bottom_wrap{/* 탬버린즈 내용 큰묶음  */
-    background-color: wheat;
-    padding: 100px 0;
+    /* background-color: wheat; */
+    /* padding: 100px 0; */
+    padding-top: 230px;
+    display: flex;  
+    flex-flow: row nowrap;
+    justify-content: space-between;
+
 
 }
-#wrap .swiper-wrapper .project1 .container .bottom_wrap .qr_img{ /* 탬버린즈 깃허브 큐알코드 */
+#wrap .swiper-wrapper .project1 .container .bottom_wrap .qr {/* 탬버린즈 깃허브 큐알코드 */
+    /* background-color: yellowgreen; */
+    margin-top: 70px;
+}
+#wrap .swiper-wrapper .project1 .container .bottom_wrap .qr p{
+    font-size: 0.875rem;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 10px;
+}
+#wrap .swiper-wrapper .project1 .container .bottom_wrap .qr img{ 
+    width: 70px; height: 70px;
+}
+#wrap .swiper-wrapper .project1 .container .bottom_wrap .project_contents{
+    width: 560px;
     
 }
-#wrap .swiper-wrapper .project1 .container .bottom_wrap .project_contents{}
-#wrap .swiper-wrapper .project1 .container .bottom_wrap .project_contents h3{}
-#wrap .swiper-wrapper .project1 .container .bottom_wrap .project_contents p{}
+#wrap .swiper-wrapper .project1 .container .bottom_wrap .project_contents h3{
+    font-size: 1.563rem;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 15px;
+
+}
+#wrap .swiper-wrapper .project1 .container .bottom_wrap .project_contents p{
+    font-size: 1rem;
+    color: #fff;
+    line-height: 1.5;
+}
 
 /* =================================================================== */
 /* 무림 */
+#wrap .swiper-wrapper .project2 {
+    width: 100%;
+    background-image: url(../images/web/bg/bg_02.png);
+}
+#wrap .swiper-wrapper .project2 .container{
+    padding: 0 140px;
+    margin: 0 auto;
+}
+#wrap .swiper-wrapper .project2 .container .top_wrap{}
+#wrap .swiper-wrapper .project2 .container .top_wrap #project_title_wrap{
+    /* background-color: yellowgreen; */
+    padding-bottom: 30px;
+    display: flex;    
+    flex-flow: row nowrap;
+}
+#wrap .swiper-wrapper .project2 .container .top_wrap #project_title_wrap img{}
+#wrap .swiper-wrapper .project2 .container .top_wrap #project_title_wrap h1{
+    font-size: 2rem;
+    font-weight: 500;
+    margin-top: 61px;
+    margin-left: 23px;
+    color: #fff;
+}
+#wrap .swiper-wrapper .project2 .container .top_wrap .project_info{}
+#wrap .swiper-wrapper .project2 .container .top_wrap .project_info h2{
+    color: #fff;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+#wrap .swiper-wrapper .project2 .container .top_wrap .project_info p{
+    color: #fff;
+    margin-top: 15px;
+}
+#wrap .swiper-wrapper .project2 .container .top_wrap .project_info p em{
+    color: #fff;
+
+}
+#wrap .swiper-wrapper .project2 .container .top_wrap #show_btn_wrap{    
+    padding: 20px 0;
+}
+#wrap .swiper-wrapper .project2 .container .top_wrap #show_btn_wrap a{
+    width: 180px; height: 0px;
+}
+#wrap .swiper-wrapper .project2 .container .top_wrap #show_btn_wrap a button{
+    background-color: #FF5B1C;
+    color: #fff;
+    width: 150px; height: 36px;
+    margin-right: 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+#wrap .swiper-wrapper .project2 .container .top_wrap #show_btn_wrap a button:hover {
+    color:#fff;
+    box-shadow: 0 0 10px 2px rgba(255,255,255,0.5);
+}
+#wrap .swiper-wrapper .project2 .container .top_wrap #show_btn_wrap a #figma{ 
+    background-color: #000;
+    color:#fff;
+}
+#wrap .swiper-wrapper .project2 .container .bottom_wrap{/*무림 내용 큰묶음  */
+    padding-top: 180px;
+    display: flex;  
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+#wrap .swiper-wrapper .project2 .container .bottom_wrap .qr {/* 무림 깃허브 큐알코드 */
+    margin-top: 110px;
+}
+#wrap .swiper-wrapper .project2 .container .bottom_wrap .qr p{
+    font-size: 0.875rem;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 10px;
+}
+#wrap .swiper-wrapper .project2 .container .bottom_wrap .qr img{ 
+    width: 70px; height: 70px;
+}
+#wrap .swiper-wrapper .project2 .container .bottom_wrap .project_contents{
+    width: 560px;
+}
+#wrap .swiper-wrapper .project2 .container .bottom_wrap .project_contents h3{
+    font-size: 1.563rem;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 15px;
+}
+#wrap .swiper-wrapper .project2 .container .bottom_wrap .project_contents p{
+    font-size: 1rem;
+    color: #fff;
+    line-height: 1.5;
+}
+
 /* 라코스테 */
+#wrap .swiper-wrapper .project3{
+    width: 100%;
+    background-image: url(../images/web/bg/bg_03_re.png);
+}
+#wrap .swiper-wrapper .project3 .container {
+    padding: 0 140px;
+    margin: 0 auto;
+}
+#wrap .swiper-wrapper .project3 .container .top_wrap{}
+#wrap .swiper-wrapper .project3 .container .top_wrap #project_title_wrap{
+    padding-bottom: 30px;
+    display: flex;    
+    flex-flow: row nowrap;
+}
+#wrap .swiper-wrapper .project3 .container .top_wrap #project_title_wrap img{}
+#wrap .swiper-wrapper .project3 .container .top_wrap #project_title_wrap h1{
+    font-size: 2rem;
+    font-weight: 500;
+    margin-top: 61px;
+    margin-left: 23px;
+    color: #fff;
+}
+#wrap .swiper-wrapper .project3 .container .top_wrap .project_info{}
+#wrap .swiper-wrapper .project3 .container .top_wrap .project_info h2{ 
+    color: #fff;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+#wrap .swiper-wrapper .project3 .container .top_wrap .project_info p{
+    color: #fff;
+    margin-top: 15px;
+}
+#wrap .swiper-wrapper .project3 .container .top_wrap .project_info p em{color: #fff;
+}
+#wrap .swiper-wrapper .project3 .container .top_wrap #show_btn_wrap{/* 버튼 묶음 */
+    /* background-color: yellow; */
+    padding: 20px 0;
+    /* display: flex; */
+}
+#wrap .swiper-wrapper .project3 .container .top_wrap #show_btn_wrap a{
+    width: 180px; height: 0px;
+}
+#wrap .swiper-wrapper .project3 .container .top_wrap #show_btn_wrap a button{
+    background-color: #FF5B1C;
+    color: #fff;
+    width: 150px; height: 36px;
+    margin-right: 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+#wrap .swiper-wrapper .project3 .container .top_wrap #show_btn_wrap a button:hover {
+    color:#fff;
+    box-shadow: 0 0 10px 2px rgba(255,255,255,0.5);
+}
+#wrap .swiper-wrapper .project3 .container .top_wrap #show_btn_wrap a #figma{ 
+    background-color: #000;
+    color:#fff;
+}
+#wrap .swiper-wrapper .project3 .container .bottom_wrap{/*라코스테 내용 큰묶음  */
+    padding-top: 180px;
+    display: flex;  
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+#wrap .swiper-wrapper .project3 .container .bottom_wrap .qr {/* 라코스테 깃허브 큐알코드 */
+    margin-top: 110px;
+}
+#wrap .swiper-wrapper .project3 .container .bottom_wrap .qr p{
+    font-size: 0.875rem;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 10px;
+}
+#wrap .swiper-wrapper .project3 .container .bottom_wrap .qr img{ 
+    width: 70px; height: 70px;
+}
+#wrap .swiper-wrapper .project3 .container .bottom_wrap .project_contents{
+    width: 570px;
+}
+#wrap .swiper-wrapper .project3 .container .bottom_wrap .project_contents h3{
+    font-size: 1.563rem;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 15px;
+}
+#wrap .swiper-wrapper .project3 .container .bottom_wrap .project_contents p{
+    font-size: 1rem;
+    color: #fff;
+    line-height: 1.5;
+}
 
 /* 디자인 프로젝트 - 슬라이드  */
 #wrap #design_project2{
@@ -315,10 +525,9 @@ body {}
 }
 #wrap #design_project2 .contents .left .design1_banner{
     width: 100%;
-    
 }
 #wrap #design_project2 .contents .left .design1_banner .swiper-wrapper{
-
+    
 }
 #wrap #design_project2 .contents .left .design1_banner .swiper-wrapper .swiper-slide {
     margin-bottom: 40px;
@@ -327,8 +536,10 @@ body {}
 
 }
 #wrap #design_project2 .contents .left .design1_banner .swiper-wrapper .swiper-slide img {
-    width: 100%;
+    width: 100%; 
     border-radius:5px;
+    object-fit: cover;
+    height: 140px;
 }
 
 /* 왼쪽 2번째 슬라이드 */
@@ -343,7 +554,8 @@ body {}
 }
 #wrap #design_project2 .contents .left .design2_snsDetail .swiper-wrapper .swiper-slide img {
     width: 100%; 
-    border-radius:5px;
+    border-radius:5px; 
+    overflow: hidden;
 }
 
 #wrap #design_project2 .contents .right{/* 오른쪽 묶음 */
@@ -383,4 +595,31 @@ body {}
 }
 #wrap #design_project2 .popup_bg .popup img{
     width: 100%;
+}
+
+/* 엔딩 */
+#wrap #end {
+    width: 100%; height: 100vh;
+    background-color: #0D1442;
+}
+#wrap #end .end_wrap {
+    width: 100%;
+    height: 1000px;
+    padding-top: 350px;
+    margin: 0 auto;
+    
+}
+#wrap #end h1 {
+    /* background-color: yellow; */
+    text-align: center;
+    margin-bottom: 60px;
+    /* padding-top: 100px; */
+    padding-left: 30px;
+}
+#wrap #end h1 img{}
+#wrap #end p{
+    color: #fff;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
 }
