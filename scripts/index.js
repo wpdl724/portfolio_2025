@@ -29,21 +29,21 @@ popup.addEventListener('click',()=>{
 /* 디자인 슬라이드  */
 /* 배너디자인 프로젝트 소개 1 */
 const designslide1 = new Swiper('#design_project2 .design1_banner', {
-    autoplay:{delay:2000,},
+    autoplay:{delay:5000,},
     loop:true,
     slidesPerView:3,
     spaceBetween:10,
 })
 /* SNS디자인 프로젝트 소개 2 */
 const designslide2 = new Swiper('#design_project2 .design2_snsDetail', {
-    autoplay:{delay:2000,},
+    autoplay:{delay:5000,},
     loop:true,
     slidesPerView:3,
     spaceBetween:10,
 })
 /* 상세디자인 프로젝트 소개 3 */
 const designslide3 = new Swiper('#design_project2 .design3_snsDetail', {
-    autoplay:{delay:2000,},
+    autoplay:{delay:5000,},
     loop:true,
     slidesPerView:1,
     spaceBetween:0,
