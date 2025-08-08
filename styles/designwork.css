@@ -29,12 +29,14 @@
 }
 
 #wrap #design_project2 .contents .left{ /* 왼쪽 묶음 */
+    /* background-color: palevioletred; */
     display: flex;
     flex-flow: column nowrap; 
     width: 1120px; 
     margin-right: 30px;
 }
-#wrap #design_project2 .contents .left .design1_banner{
+#wrap #design_project2 .contents .left .design1_banner{ /* 가로배너 */
+    /* background-color: tomato; */
     width: 100%;
 }
 #wrap #design_project2 .contents .left .design1_banner .swiper-wrapper{
@@ -54,17 +56,19 @@
 }
 
 /* 왼쪽 2번째 슬라이드 */
-#wrap #design_project2 .contents .left .design2_snsDetail{
-    width: 100%;
+#wrap #design_project2 .contents .left .design2_snsDetail{/* 카드뉴스 */
+    /* background-color: yellow; */
+    width: 100%; 
+    margin-top: 40px;
 }
 #wrap #design_project2 .contents .left .design2_snsDetail .swiper-wrapper {
 }
 #wrap #design_project2 .contents .left .design2_snsDetail .swiper-wrapper .swiper-slide {
     cursor: pointer; /* 눌러지는 느낌을 줄수있음 */
-
+    align-items: center;
 }
 #wrap #design_project2 .contents .left .design2_snsDetail .swiper-wrapper .swiper-slide img {
-    width: 100%; 
+    width: 100%;
     border-radius:5px; 
     overflow: hidden;
 }
